@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    color: #27ae60;
+}
+
+p {
+    position: absolute;
+    top: 60px;
+    color: #ddd;
+}
+
+#game-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
